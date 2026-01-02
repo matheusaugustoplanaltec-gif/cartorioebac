@@ -153,7 +153,9 @@ int main()
 			printf("\t1 - Registrar \n");
 			printf("\t2 - Consultar \n");
 			printf("\t3 - Deletar \n");
-						
+		
+			printf("\t4 - Sair do sistema \n"); 
+				
 			scanf("%d", &opcao); //armazenando dentro da opçao
 		
 			system("cls");
@@ -177,6 +179,11 @@ int main()
 				system("pause");
 				break;
 			
+			
+				case 4:
+				printf("Obrigado por usar nossos serviços\n");
+				return 0;
+				break;
 			} 
 		}
 	
